@@ -5,4 +5,4 @@ Due to changes implemented in Azure DevOps that by default limit Pipeline Access
 required to ensure access to remote repository is in place and pipeline is authorized to access it.
 
 # Disclaimer
-This code snippet should not be used without modification. It is by no means ready. It is demonstrating a method.
+This code snippet should not be used without modification. It is demonstrating a method and is not well-structured.
