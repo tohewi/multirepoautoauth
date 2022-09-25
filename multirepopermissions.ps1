@@ -80,7 +80,7 @@ $body = @"
 
 $authorization = GetDevOpsAuthorizationHeader -Token $pat -userEmail $userEmail
 
-$uri = "$($devopsorg)/$($projectId)/_apis/pipelines/pipelinePermissions/repository/$($templateProjectId).$($templateProjectRepositoryId)?api-version=6.1-preview.1"
+$uri = "$($devopsorg)/$($projectId)/_apis/pipelines/pipelinePermissions/repository/$($templateProjectId).$($templateProjectRepositoryId)?api-version=7.1-preview.1"
 
 try {
     $result = Invoke-RestMethod -Uri $uri -Method Patch -ContentType "application/json" -Headers $authorization -Body $body
